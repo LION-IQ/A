@@ -106,8 +106,8 @@
     "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
     "value": "",
     "required": false
-   },
-
+   }
+     },
   "addons": [{
    "plan": "heroku-postgresql",
    "options": {
