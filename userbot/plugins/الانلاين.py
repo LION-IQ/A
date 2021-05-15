@@ -75,7 +75,7 @@ async def unload(lightning):
         await lightning.edit(f"تم الازالة بنجاح✅ {krish_blac}")
     except Exception as e:
         await lightning.edit(
-            "تم الازالة بنجاح✅ {krish_blac}\n{}".format(krish_blac, str(e))
+            f"تم الازالة بنجاح✅ {krish_blac}\n{}".format(krish_blac, str(e))
         )
 
 
@@ -117,15 +117,6 @@ if LIGHTNING_WARN is None:
 )
 else:
     WARNING = LIGHTNING_WARN
-
-
-
-
-
-
-
-
-
 
 @tgbot.on(events.InlineQuery)
 async def inline_handler(lightning):
