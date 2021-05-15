@@ -31,13 +31,12 @@ Thanks"""
 import os
 
 import re
-import json
 from math import ceil
 from userbot.thunderconfig import Config
 
 from telethon import Button, custom, events, functions
 
-from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST, DETAIL_CMD_HELP, bot
+from userbot import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
 
 from var import Var
 
@@ -46,8 +45,7 @@ LIGHT_LOGS = Config.PM_LOGGR_BOT_API_ID
 lightning_bot = Var.TG_BOT_USER_NAME_BF_HER
 import asyncio
 
-from datetime import datetime
-from pathlib import Path
+
 
 
 from userbot.utils import lightning_cmd, load_module, remove_plugin
@@ -75,7 +73,7 @@ async def unload(lightning):
         await lightning.edit(f"تم الازالة بنجاح✅ {krish_blac}")
     except Exception as e:
         await lightning.edit(
-            f"تم الازالة بنجاح✅ {krish_blac}\n{}".format(krish_blac, str(e))
+            "تم الازالة بنجاح✅ {krish_blac}\n{}".format(krish_blac, str(e))
         )
 
 
