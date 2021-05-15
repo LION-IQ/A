@@ -1,7 +1,7 @@
 {
   "name": "Black Lightning - UserBot",
   "description": "An advanced Telethon Userbot, from @keinshin",
-  "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
+  "logo": "https://telegra.ph/file/e4a5747f7b7872617b3ca.png",
   "keywords": [
    "telegram",
    "userbot",
@@ -19,35 +19,25 @@
     "value": "ANYTHING"
    },
    "TEMP_DOWNLOAD_DIRECTORY": {
-    "description": "Where downloaded files will go.",
+    "description": "اتركها كما هي",
     "value": "./userbot/DOWNLOADS/",
     "required": false
    },
    "APP_ID": {
-    "description": "Get this value from my.telegram.org! Please do not steal",
+    "description": "الايبي ايدي {مكون من 6 ارقام}",
     "value": ""
    },
    "API_HASH": {
-    "description": "Get this value from my.telegram.org! Please do not steal",
+    "description": "ايبي هااااش",
     "value": ""
    },
    "STRING_SESSION": {
-    "description": "Get this value by running python3 telesetup.py locally or https://repl.it/@Anmol10H/Lightning-Userbot#main.py online.",
+    "description": "كوود جلسة الدخول او التيرمكس <SESSION> ",
     "value": ""
    },  
    "CUSTOM_PMPERMIT": {
-    "description": "The message that appears when someone PM's you. Leave it as such for default message.",
-    "value": "Do not spam here, else you will be blocked automatically."
-   },
-    "CMD_HNDLR": {
-    "description": "Used to invoke commands, leave as it for default",
-    "value": ".",
-    "required": false
-   },  
-    "SUDO_HNDLR": {
-    "description": "Used to invoke sudo commands, leave blank for default",
-    "value": "",
-    "required": false
+    "description": " رسالة الرد التلقائي في الخاص للاشخاص الجدد,",
+    "value": "لا ترسل رسائل عشوائيًا هنا ، وإلا فسيتم حظرك تلقائيًا."
    },
    "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
@@ -66,21 +56,6 @@
     "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
     "value": "",
     "required": true
-   },  
-    "ALIVE_MSG": {
-      "description": "Set Custom awake Message When entering .awake command.",
-      "value": "",
-      "required": false
-    },
-    "CHROME_BIN": {
-    "description": "Leave as such, Google Chrome (or) Chromium binary location for selenium based modules.",
-    "value": "/usr/bin/google-chrome",
-    "required": false
-   },
-   "CHROME_DRIVER": {
-    "description": "Leave as such, ChromeDriver location for selenium based modules",
-    "value": "/usr/bin/chromedriver",
-    "required": false
    },
    "PLUGIN_CHANNEL": {
     "description": "Channel Where You Save Your Plugins",
@@ -112,11 +87,6 @@
     "value": "",
     "required": true
    },
-   "ALIVE_NAME": {
-    "description": "Your Telegram Username. ",
-    "value": "",
-    "required": false
-   },
    "TG_GRUP": {
     "description": "Telegram Grup Name Starts With @ like, @lightningsupport, If No Name Leave It Default. Required For Alive ",
     "value": "Not Yet😁😁",
@@ -132,31 +102,11 @@
     "value": "5",
     "required": false
    },
-   "OCR_SPACE_API_KEY": {
-    "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-    "value": "",
-    "required": false
-   },
    "REM_BG_API_KEY": {
     "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
     "value": "",
     "required": false
    },
-   "ALIVE_PIC": {
-    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
-    "value": "",
-    "required": false
-   },
-   "PMPERMIT_PIC": {
-   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
-   "value": "",
-   "required": false
-   },
-   "TZ": {
-    "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-    "value": "",
-    "required": false
-   }
   },
   "addons": [{
    "plan": "heroku-postgresql",
